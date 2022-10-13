@@ -1,4 +1,5 @@
 # debugging-clojure-example
-1. using tap>
-2. using trace
-3. using trace + portal
+1. using prn
+2. using tap>
+3. using trace
+4. using trace + portal
