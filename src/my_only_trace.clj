@@ -1,6 +1,6 @@
 (ns my-only-trace
   (:require [net.lewisship.trace :as trace
-             :refer [trace trace> trace>> *compile-trace*]]))
+             :refer [trace trace> trace>>]]))
 
 (defn calls-trace
   []
