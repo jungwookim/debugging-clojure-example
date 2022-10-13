@@ -1,5 +1,6 @@
 {:paths   ["src" "resources" "classes"]
  :deps    {org.clojure/clojure    {:mvn/version "1.11.1"}
            djblue/portal          {:mvn/version "0.31.0"}
-           io.github.hlship/trace {:mvn/version "v1.0"}}
+           io.github.hlship/trace {:git/url "https://github.com/jungwookim/trace"
+                                   :git/sha "27e0faf04fa865d902730da9b944053445f0be7d"}}
  :aliases {}}
