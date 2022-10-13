@@ -1,0 +1,71 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+right",
+    "command": "paredit.forwardSexp",
+    "when": "calva:keybindingsEnabled && editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+  },
+  {
+    "key": "alt+right",
+    "command": "cursorWordRight"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "paredit.backwardSexp",
+    "when": "calva:keybindingsEnabled && editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorWordLeft"
+  },
+  {
+    "key": "ctrl+alt+e ctrl+alt+j",
+    "command": "workbench.action.joinTwoGroups"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.joinLines"
+  },
+  {
+    "key": "ctrl+alt+a ctrl+alt+b",
+    "command": "atlascode.views.bb.pullrequestsTreeView.focus"
+  },
+  {
+    "key": "ctrl+alt+a ctrl+alt+j",
+    "command": "atlascode.views.jira.customJql.focus"
+  },
+  {
+    "key": "ctrl+t ctrl+f",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+t ctrl+t",
+    "command": "workbench.action.quickOpenTerm"
+  },
+  {
+    "key": "ctrl+u ctrl+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+l ctrl+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+alt+e ctrl+alt+right",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+alt+k ctrl+alt+t",
+    "command": "calva.toggleBetweenImplAndTest"
+  },
+  {
+    "key": "ctrl+alt+space j",
+    "command": "joyride.runUserScript",
+    "args": "javadoc.cljs"
+  },
+  {
+    "key": "ctrl+alt+space /",
+    "command": "joyride.runUserScript",
+    "args": "clojuredocs.cljs"
+  }
+]

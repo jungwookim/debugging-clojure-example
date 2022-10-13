@@ -1,0 +1,302 @@
+{
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block",
+    "editor.wordWrapColumn": 78,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "git.confirmSync": false,
+    "clock.dateFormat": "HH:MM mmm dd",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "[clojure]": {
+
+        "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
+        "editor.autoClosingBrackets": "always",
+        "editor.autoClosingQuotes": "always",
+        "editor.formatOnType": true,
+        "editor.autoIndent": "advanced",
+        "editor.formatOnPaste": true,
+        "editor.matchBrackets": "near",
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "editor.autoClosingOvertype": "always"
+    },
+    "auto-close-tag.excludedTags": [
+      "area",
+      "base",
+      "br",
+      "col",
+      "command",
+      "embed",
+      "hr",
+      "img",
+      "input",
+      "keygen",
+      "link",
+      "meta",
+      "param",
+      "source",
+      "track",
+      "wbr",
+      "cfabort",
+      "cfapplication",
+      "cfargument",
+      "cfassociate",
+      "cfbreak",
+      "cfchartdata",
+      "cfcollection",
+      "cfcontent",
+      "cfcontinue",
+      "cfcookie",
+      "cfdirectory",
+      "cfdump",
+      "cfelse",
+      "cfelseif",
+      "cferror",
+      "cfexecute",
+      "cfexit",
+      "cffile",
+      "cfflush",
+      "cfheader",
+      "cfhttpparam",
+      "cfimage",
+      "cfimport",
+      "cfinclude",
+      "cfindex",
+      "cfinput",
+      "cfinvokeargument",
+      "cflocation",
+      "cflog",
+      "cfloginuser",
+      "cflogout",
+      "cfmailparam",
+      "cfobject",
+      "cfobjectcache",
+      "cfparam",
+      "cfpop",
+      "cfprocessingdirective",
+      "cfprocparam",
+      "cfprocresult",
+      "cfproperty",
+      "cfqueryparam",
+      "cfregistry",
+      "cfreportparam",
+      "cfrethrow",
+      "cfreturn",
+      "cfschedule",
+      "cfsearch",
+      "cfset",
+      "cfsetting",
+      "cfthrow",
+      "cfwddx"
+    ],
+    "yaml.schemas": {
+      "file:///Users/sean/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+      {
+        "id": "eb6b067c-8124-43d4-aa91-41052ca528d9",
+        "enabled": true,
+        "name": "My wsnetworks Issues",
+        "query": "assignee = currentUser() AND type != Epic AND status in (\"New\",\"More Information Needed\",\"Selected For Development\",\"In Progress\") ORDER BY status ASC, lastViewed DESC",
+        "siteId": "cf226917-740d-419c-9013-ad19765f9a1d",
+        "monitor": true
+      }
+    ],
+    "atlascode.jira.statusbar.showProduct": false,
+    "atlascode.jira.statusbar.showUser": false,
+    "atlascode.jira.statusbar.enabled": true,
+    "atlascode.jira.statusbar.showLogin": false,
+    "atlascode.jira.explorer.nestSubtasks": false,
+    "atlascode.bitbucket.enabled": true,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "atlascode.bitbucket.pipelines.explorerEnabled": false,
+    "atlascode.bitbucket.issues.explorerEnabled": false,
+    "atlascode.jira.lastCreateSiteAndProject": {
+      "siteId": "",
+      "projectKey": "WS"
+    },
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.clj-kondo/.cache": true,
+      "**/.cpcache": true,
+      "**/.lsp/.cache": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+      "**/.clj-kondo/.cache/**": true,
+      "**/.lsp/.cache/**": true,
+      "**/target/classes/**": true
+    },
+    "calva.autoOpenJackInTerminal": true,
+    "calva.enableJSCompletions": false,
+    "calva.fmt.newIndentEngine": true,
+    "calva.highlight.cycleBracketColors": false,
+    "calva.highlight.enableBracketColors": false,
+    "calva.openBrowserWhenFigwheelStarted": false,
+    "calva.paredit.defaultKeyMap": "strict",
+    "calva.paredit.killAlsoCutsToClipboard": true,
+    "calva.showCalvaSaysOnStart": false,
+    "calva.showDocstringInParameterHelp": true,
+    "clojure.trace.server": "messages",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.detectIndentation": false,
+    "editor.hover.delay": 1000,
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "first",
+    "emmet.showExpandedAbbreviation": "never",
+    "extensions.ignoreRecommendations": true,
+    "git.pullTags": false,
+    "redhat.telemetry.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "task.saveBeforeRun": "never",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.wrapTabs": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "codestream.email": "sean@worldsingles.com",
+    "cfml.autoCloseTags.enable": false,
+    "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "HTML (EEx)",
+      "HTML (Eex)",
+      "plist"
+    ],
+    "git.ignoreLegacyWarning": true,
+    "calva.highlight.highlightActiveIndent": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "calva.myCljAliases": [
+      ":portal",
+      ":add-libs",
+      ":reflect",
+      ":jedi-time",
+      ":reflect"
+    ],
+    "calva.autoOpenREPLWindow": true,
+    "calva.customREPLCommandSnippets": [
+      {
+        "name": "Add Libs Enclosing",
+        "key": "a",
+        "snippet": "(tap> ((requiring-resolve 'clojure.tools.deps.alpha.repl/add-libs) '$enclosing-form))"
+      },
+      {
+        "name": "Tap Define Binding",
+        "key": "d",
+        "snippet": "(tap> (def $selection))"
+      },
+      {
+        "name": "Tap Last Exception",
+        "key": "e",
+        "snippet": "(tap> (Throwable->map *e))"
+      },
+      {
+        "name": "Tap Namespace Publics",
+        "key": "n",
+        "snippet": "(tap> (-> (find-ns '$ns) (clojure.datafy/datafy) :publics))"
+      },
+      {
+        "name": "Tap Namespace Cleanup",
+        "key": "z",
+        "snippet": "(tap> (when-let [ns (find-ns '$ns)] (tap> \"Removing $ns...\") (run! #(try (ns-unalias ns %) (catch Throwable _)) (keys (ns-aliases ns))) (run! #(try (ns-unmap ns %) (catch Throwable _)) (keys (ns-interns ns))) (->> (ns-refers ns) (remove (fn [[_ v]] (.startsWith (str v) \"#'clojure.core/\"))) (map key) (run! #(try (ns-unmap ns %) (catch Throwable _))))))"
+      },
+      {
+        "name": "Run Current Test",
+        "key": "c",
+        "snippet": "(tap> (with-out-str (binding [clojure.test/*test-out* *out*] (clojure.test/test-vars [#'$top-level-defined-symbol]))))"
+      },
+      {
+        "name": "Run Tests",
+        "key": "t",
+        "snippet": "(tap> (let [nt (symbol \"$ns\")] (tap> \"Testing $ns...\") (require nt) (clojure.test/run-tests nt))))"
+      },
+      {
+        "name": "Run Tests For Source",
+        "key": "x",
+        "snippet": "(tap> (some #(let [nt (symbol (str \"$ns-\" %))] (when (try (require nt) true (catch Throwable _)) (tap> (str \"Testing \" nt \"...\")) (clojure.test/run-tests nt))) [\"test\" \"expectations\"]))"
+      },
+      {
+        "name": "Portal Clear",
+        "key": "k",
+        "snippet": "(portal.api/clear)"
+      },
+      {
+        "name": "Portal Start",
+        "key": "p",
+        "snippet": "(do (ns dev) (def portal ((requiring-resolve 'portal.api/open) {:launcher :vs-code :portal.launcher/window-title (System/getProperty \"user.dir\")})) (add-tap (requiring-resolve 'portal.api/submit)))"
+      },
+      {
+        "name": "Portal Viewer",
+        "key": "0",
+        "snippet": "(portal.api/eval-str \"(let [state portal.ui.state/state] (-> (portal.ui.commands/select-none state) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-next-viewer state)) (.then #(portal.ui.commands/select-none state))))\")"
+      },
+      {
+        "name": "Portal Expand First",
+        "key": "1",
+        "snippet": "(portal.api/eval-str \"(let [state portal.ui.state/state] (-> (portal.ui.commands/select-none state) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/toggle-expand state)) (.then #(portal.ui.commands/select-none state))))\")"
+      },
+      {
+        "name": "Portal Expand Second",
+        "key": "2",
+        "snippet": "(portal.api/eval-str \"(let [state portal.ui.state/state] (-> (portal.ui.commands/select-none state) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/toggle-expand state)) (.then #(portal.ui.commands/select-none state))))\")"
+      },
+      {
+        "name": "Portal Expand Third",
+        "key": "3",
+        "snippet": "(portal.api/eval-str \"(let [state portal.ui.state/state] (-> (portal.ui.commands/select-none state) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/select-child state)) (.then #(portal.ui.commands/toggle-expand state)) (.then #(portal.ui.commands/select-none state))))\")"
+      },
+    ],
+    "settingsSync.ignoredSettings": [
+      "yaml.schemas"
+    ],
+    "calva.replConnectSequences": [
+      {
+        "projectType": "deps.edn",
+        "afterCLJReplJackInCode": "(user/go)",
+        "name": "Polylith REPL (global)",
+        "cljsType": "none",
+        "menuSelections": {
+            "cljAliases": [
+                "dev",
+                "+farmnavi",
+                "global-test",
+                "portal"
+            ]
+        }
+    },
+    {
+        "projectType": "deps.edn",
+        "afterCLJReplJackInCode": "(user/go)",
+        "name": "Polylith REPL (local)",
+        "cljsType": "none",
+        "menuSelections": {
+            "cljAliases": [
+                "dev",
+                "+farmmorning",
+                "test",
+                "portal"
+            ]
+        }
+    }
+  ],
+  "clojure.format.enable": true
+}
